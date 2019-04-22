@@ -1,0 +1,23 @@
+{
+  "name": "retail-store",
+  "version": "0.1.0",
+  "description": "Retail store sample with test suite",
+  "main": "checkout.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest --coverage --silent"
+  },
+  "author": "https://github.com/tannerla",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
