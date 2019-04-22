@@ -2,7 +2,7 @@
 
 Retail store sample with test suite.
 
-![Thumbnail](./docs/uml.png)
+![Thumbnail](./docs/retail-store.png)
 
 ## Usage
 
